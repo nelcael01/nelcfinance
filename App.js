@@ -1,18 +1,6 @@
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View } from "react-native";
+import Home from "./src/pages/Home";
 
 export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Nelc Food</Text>
-    </View>
-  );
+  return <Home />;
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#ffffff',
-    alignItems:'center',
-    justifyContent: 'center'
-  },
-});
