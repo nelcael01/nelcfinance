@@ -5,7 +5,7 @@ const statusBarHeight = StatusBar.currentHeight ? StatusBar.currentHeight + 22 :
 
 export const Container = styled.View`
   background-color: #8000ff;
-  padding-top: ${statusBarHeight};
+  padding-top: ${statusBarHeight}px;
   flex-direction: row;
   padding-left: 16px;
   padding-right: 16px;
